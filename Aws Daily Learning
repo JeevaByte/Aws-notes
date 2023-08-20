@@ -1,0 +1,715 @@
+1 concept a day equals 365 concepts = 6 technical certifications.
+
+git>linux>docker>kuberneties>jenkins>terraform>ansible>cloud
+
+
+🎯𝗗𝗮𝘆 𝟭 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud
+🚀 𝐔𝐩𝐬𝐤𝐢𝐥𝐥 > 𝐖𝐨𝐫𝐤 > 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩 > 𝐑𝐞𝐩𝐞𝐚𝐭
+ 𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+
+𝐋𝐨𝐚𝐝 𝐁𝐚𝐥𝐚𝐧𝐜𝐞𝐫 & 𝐀𝐮𝐭𝐨 𝐒𝐜𝐚𝐥𝐢𝐧𝐠 𝐆𝐫𝐨𝐮𝐩:
+👉Scalability(Vertical, Horizontal),High Availability
+👉 Elastic Load Balancer>Types>Health Checks>Security Groups
+👉Application Load Balancer, Network Load Balancer, Gateway Load Balancer
+👉Target Groups, Sticky Sessions, SSL/TLS Certificates, Server Name Indication,Connection Draining(Deregistration Delay)
+👉 Auto Scaling Group> CloudWatch Alarms>Scaling Cooldowns.
+
+
+🎯𝗗𝗮𝘆 𝟐 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒#100daysofcloud
+🚀 𝐔𝐩𝐬𝐤𝐢𝐥𝐥 >𝐖𝐨𝐫𝐤> 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩>𝐑𝐞𝐩𝐞𝐚𝐭
+ 𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+
+𝐑𝐃𝐒 :
+👉 RDS – Storage Auto Scaling, RDS Read Replicas, Network Cost, RDS Multi AZ (Disaster Recovery)
+👉 RDS Custom (Managed Oracle and Microsoft SQL Server Database/ using SSH into EC2 Instance)
+👉 RDS Backups (Automated backups, Manual DB Snapshots), Restore options (snapshot & S3)
+👉 RDS Security (IAM roles, AWS KMS, TLS, Security Groups, Audit Logs, No SSH except custom)
+👉 RDS Proxy (pool and share DB connections), Reduced RDS & Aurora failover, No code changes
+
+𝐀𝐦𝐚𝐳𝐨𝐧 𝐀𝐮𝐫𝐨𝐫𝐚 :
+👉 Postgres and MySQL - supported as Aurora DB, Auto Scaling, read replicas
+👉 Custom Endpoints, Writer Endpoint, Reader Endpoint, Serverless, Multi-Master
+👉 Global Aurora, Aurora Machine Learning (SageMaker, Comprehend), Aurora Backups
+👉 Aurora Backups, Restore options (snapshot & S3), Database Cloning, Aurora Security
+
+𝐀𝐦𝐚𝐳𝐨𝐧 𝐄𝐥𝐚𝐬𝐭𝐢𝐂𝐚𝐜𝐡𝐞 :
+👉 Managed Redis or Memcached, in-memory databases, heavy application code changes
+👉 Cache hit, Session Store, Cache Security (IAM policies, Redis AUTH, SSL, SASL authentication)
+
+𝐑𝐨𝐮𝐭𝐞 𝟓𝟑 :
+👉 DNS, Domain Registrar, DNS Records, Zone File, Name Server, Top Level Domain & SLD
+👉 TTL (Time To Live), Alias records, CNAME, Routing Policies (simple, Weighted, Failover ..etc)
+👉 Health Checks, Failover (Active-Passive)
+
+𝐀𝐦𝐚𝐳𝐨𝐧 𝐒𝟑 :
+👉 Infinitely scaling storage, objects (files) in “buckets” (directories), global service but in a region
+👉 Objects:Key, Security (IAM Policies, Bucket Policies, Object/Bucket Access Control List, encryption
+👉 AWS policy generator, Static Website Hosting, Versioning, Replication (CRR & SRR, Batch)
+👉S3 Storage Classes(•General Purpose •Infrequent Access (IA) • One Zone-Infrequent Access • Glacier Instant Retrieval • Glacier Flexible Retrieval • Glacier Deep Archive • Intelligent Tiering )
+👉 Lifecycle Rules (Transition Actions & Expiration actions), S3 Analytics, Requester Pays
+👉 S3 Event Notifications, Amazon EventBridge, S3 Select & Glacier Select (server-side filtering)
+👉 S3 Performance( Byte-Range Fetches, Multi-Part upload, S3 Transfer Acceleration, Baseline )
+👉 S3 Batch Operations, Security (SSE-S3, SSE-KMS, SSE-C, Client-Side Encryption, SSL/TLS)
+👉 S3 – CORS, S3 – MFA Delete(cli), Access Logs, Pre-Signed URLs, Glacier Vault Lock, S3 Object Lock,Access Points, Object Lambda
+
+
+🎯𝗗𝗮𝘆 𝟑 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud
+🚀 𝐔𝐩𝐬𝐤𝐢𝐥𝐥 > 𝐖𝐨𝐫𝐤 > 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩 > 𝐑𝐞𝐩𝐞𝐚𝐭
+ 𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+
+𝐀𝐦𝐚𝐳𝐨𝐧 𝐂𝐥𝐨𝐮𝐝𝐅𝐫𝐨𝐧𝐭:
+👉 Content Delivery Network > cache content all around the world
+👉 DDoS protection, Geo Restriction (Allowlist, Blocklist)
+👉 Prices Class (100, 200, All), Cache Invalidations
+
+𝐀𝐖𝐒 𝐆𝐥𝐨𝐛𝐚𝐥 𝐀𝐜𝐜𝐞𝐥𝐞𝐫𝐚𝐭𝐨𝐫:
+👉 2 Anycast IP >Send traffic> Edge locations>Private AWS
+👉 Elastic IP, EC2 instances, ALB, NLB, no caching
+👉 Health Checks (application global failover), Security (AWS Shield)
+
+𝐀𝐖𝐒 𝐒𝐧𝐨𝐰 𝐅𝐚𝐦𝐢𝐥𝐲:
+👉 Edge computing, Data migration, portable devices
+👉 AWS Snowcone, Snowball Edge, Snowmobile
+👉 Edge computing (Snowcone, Snowball Edge with CPU)
+👉 AWS OpsHub (Without CLI manage Snow Family)
+
+𝐀𝐦𝐚𝐳𝐨𝐧 𝐅𝐒𝐱:
+👉 3rd party high-performance file systems, FSx for Windows File Server
+👉 FSx for Lustre, FSx for OpenZFS, FSx for NetApp ONTAP
+
+𝐀𝐖𝐒 𝐒𝐭𝐨𝐫𝐚𝐠𝐞 𝐆𝐚𝐭𝐞𝐰𝐚𝐲:
+👉 Bridge between on-premises data and cloud data, Local cache
+👉 S3 File Gateway, FSx File Gateway, Volume Gateway, Tape Gateway
+👉 AWS DataSync, AWS Transfer Family, Hardware appliance
+
+𝐀𝐦𝐚𝐳𝐨𝐧 𝐒𝐐𝐒:
+👉 Standard Queue, Decouple applications, Unlimited throughput
+👉 Producing VS Consumers, Poll SQS, Multiple EC2, ASG
+👉 Security (KMS keys, IAM policies, SNS Access Policies), FIFO Topic
+👉 Message Visibility Timeout, Long Polling, Buffer to database writes
+
+𝐀𝐦𝐚𝐳𝐨𝐧 𝐒𝐍𝐒:
+👉 One message to many receivers, As many event receivers (subscriptions),
+👉 Integrates with a lot of AWS services, Topic Publish, Direct Publish, SNS + SQS: Fan Out
+👉 SNS Security (KMS keys, IAM policies, SNS Access Policies), SNS FIFO Topic
+👉 SNS – Message Filtering
+
+🎯𝗗𝗮𝘆 𝟒 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud
+🚀 𝐔𝐩𝐬𝐤𝐢𝐥𝐥 > 𝐖𝐨𝐫𝐤 > 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩 > 𝐑𝐞𝐩𝐞𝐚𝐭
+ 𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+
+𝐊𝐢𝐧𝐞𝐬𝐢𝐬:
+👉 easy to collect, process, and analyse streaming data in real-time
+👉 Kinesis Data Streams: capture, process, and store data streams
+👉 Kinesis Data Firehose: load data streams into AWS data stores
+👉 Kinesis Data Analytics: analyze data streams with SQL or Apache Flink
+👉 Kinesis Video Streams: capture, process, and store video streams
+
+𝐊𝐢𝐧𝐞𝐬𝐢𝐬 𝐃𝐚𝐭𝐚 𝐒𝐭𝐫𝐞𝐚𝐦𝐬:
+👉 Producers > Kinesis Data Streams > Consumers , VPC Endpoints available
+👉 Partition Key, Sequence no, Data Blob, 1 day to 365 days of Retention
+👉 Provisioned mode/ On-demand mode, Supports replay capability
+👉 Security (IAM policies, HTTPS endpoints, KMS, encryption on client side)
+👉 Monitor API calls using CloudTrail
+
+𝐊𝐢𝐧𝐞𝐬𝐢𝐬 𝐃𝐚𝐭𝐚 𝐅𝐢𝐫𝐞𝐡𝐨𝐬𝐞:
+👉 Producers > Kinesis Data Firehose > AWS/ Custom/ 3rd-party Destinations
+👉 Fully Managed Service, no administration, automatic scaling, serverless
+👉 No data storage, Doesn’t support replay capability
+👉 Near real-time ( 60 sec)
+
+𝐀𝐦𝐚𝐳𝐨𝐧 𝐌𝐐:
+👉When migrating to the cloud, instead of re-engineering the application to use SQS and SNS, we can use Amazon MQ
+👉 Amazon MQ is a managed message broker service for ACTIVE MQ & RABBIT MQ
+👉 Queue feature (~SQS) and topic features (~SNS)
+
+
+🎯𝗗𝗮𝘆 𝟓 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud
+🚀 𝐔𝐩𝐬𝐤𝐢𝐥𝐥 > 𝐖𝐨𝐫𝐤 > 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩 > 𝐑𝐞𝐩𝐞𝐚𝐭
+ 𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+
+𝐄𝐥𝐚𝐬𝐭𝐢𝐜 𝐂𝐨𝐧𝐭𝐚𝐢𝐧𝐞𝐫 𝐒𝐞𝐫𝐯𝐢𝐜𝐞:
+👉 Docker is a software development platform to deploy apps (containers)
+👉 Launch Docker containers on AWS = Launch ECS Tasks on ECS Clusters
+👉 Fargate-no EC2 instances to manage, EC2 Instance Profile, Task Role
+👉 ECS-lb integration, data volume EFS, autoscaling
+
+𝐄𝐥𝐚𝐬𝐭𝐢𝐜 𝐂𝐨𝐧𝐭𝐚𝐢𝐧𝐞𝐫 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐲:
+👉 Store and manage Docker images on AWS
+👉 Access is controlled through IAM , similar to docker hub
+
+𝐄𝐥𝐚𝐬𝐭𝐢𝐜 𝐊𝐮𝐛𝐞𝐫𝐧𝐞𝐭𝐞𝐬 𝐒𝐞𝐫𝐯𝐢𝐜𝐞:
+👉 way to launch managed Kubernetes clusters on AWS
+👉 Managed Node Groups, Self-Managed Nodes, AWS Fargate
+👉 Data Volumes- FSx for Lustre& NetApp, EBS, EFS
+👉 Near real-time (buffer time min. 60 sec)
+
+𝐀𝐖𝐒 𝐀𝐩𝐩 𝐑𝐮𝐧𝐧𝐞𝐫:
+👉 No infrastructure experience required (EKS or ECS)
+👉 Fully managed service that makes it easy to deploy web applications and APIs at scale
+👉 Automatic scaling, highly available, load balancer, encryption
+👉 Connect to database, cache, and message queue services
+
+𝐀𝐖𝐒 𝐋𝐚𝐦𝐛𝐝𝐚:
+👉 Serverless-developers don’t have to manage servers anymore
+👉 Fully managed serverless ec2 is AWS Lambda, cost effective
+👉 Maximum execution time: 900 seconds (15 minutes)
+👉 Integrated with many programming languages
+
+
+🎯𝗗𝗮𝘆 𝟔 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud
+🚀 𝐔𝐩𝐬𝐤𝐢𝐥𝐥 > 𝐖𝐨𝐫𝐤 > 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩 > 𝐑𝐞𝐩𝐞𝐚𝐭
+ 𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+
+𝐈𝐧𝐭𝐞𝐫𝐧𝐞𝐭 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 (𝐈𝐆𝐖):
+👉 Allows resources  in a VPC connect to the Internet
+👉 Route tables be edited to allow Internet access
+👉 One VPC can only be attached to one IGW and vice versa
+
+𝐁𝐚𝐬𝐭𝐢𝐨𝐧 𝐇𝐨𝐬𝐭𝐬 / 𝐍𝐀𝐓 𝐈𝐧𝐬𝐭𝐚𝐧𝐜𝐞 / 𝐍𝐀𝐓 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 :
+👉 Bastion Host to SSH into our private EC2 instances in private subnets
+👉 NAT Instance Allows EC2 in private subnets to connect to the Internet
+👉 AWS-managed NAT Instance is called NAT Gateway , Requires  IGW
+👉 Egress-only Internet Gateway similar to a NAT Gateway but for IPv6
+
+𝐒𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐆𝐫𝐨𝐮𝐩𝐬 & 𝐍𝐀𝐂𝐋:
+👉 NACL extra level of protection for subnet and are stateless
+👉 Like a firewall which control traffic from and to subnets
+👉 Security Groups control traffic at the instance level are statefull
+
+𝐕𝐏𝐂 / 𝐂𝐈𝐃𝐑:
+👉 CIDR -Method for allocating IP addresses, help to define an IP address range
+👉 Base IP/ Subnet Mask, Virtual Private Cloud
+👉 AWS reserves 5 IP addresses (first 4 & last 1) in each subnet
+
+𝐄𝐩𝐡𝐞𝐦𝐞𝐫𝐚𝐥 𝐏𝐨𝐫𝐭𝐬 :
+👉 Port opened by client for return response connect to a defined port
+👉 Used in defining inbound/outbound ports for NACL
+
+𝐕𝐏𝐂 𝐏𝐞𝐞𝐫𝐢𝐧𝐠 / 𝐕𝐏𝐂 𝐄𝐧𝐝𝐩𝐨𝐢𝐧𝐭𝐬/ 𝐕𝐏𝐂 𝐅𝐥𝐨𝐰 𝐋𝐨𝐠𝐬 :
+👉 VPC Peering connect two VPCs using AWS network
+👉 Endpoints to connect to AWS services using a private network instead of using the public Internet
+👉 Flow Logs Capture information about IP traffic going into our interfaces
+
+𝐒𝐢𝐭𝐞-𝐭𝐨-𝐒𝐢𝐭𝐞 𝐕𝐏𝐍/ 𝐕𝐏𝐍 𝐂𝐥𝐨𝐮𝐝𝐇𝐮𝐛/ 𝐃𝐢𝐫𝐞𝐜𝐭 𝐂𝐨𝐧𝐧𝐞𝐜𝐭/ 𝐓𝐫𝐚𝐧𝐬𝐢𝐭 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 :
+👉 Site-to-Site for connecting corporate server to AWS through public
+👉 Direct Connect for connecting corporate server to AWS through private
+👉  Cloud Hub for multiple Site-to-Site customer or client network to be connected
+👉 Transit Gateway hub-and-spoke model to organize vpc, vpn, direct connect..
+👉 VPC –Traffic Mirroring Allows you to capture and inspect network traffic in your VPC
+
+
+🎯𝗗𝗮𝘆 𝟕 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud
+🚀 𝐔𝐩𝐬𝐤𝐢𝐥𝐥 > 𝐖𝐨𝐫𝐤 > 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩 > 𝐑𝐞𝐩𝐞𝐚𝐭
+ 𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+
+𝐃𝐢𝐬𝐚𝐬𝐭𝐞𝐫 𝐑𝐞𝐜𝐨𝐯𝐞𝐫𝐲:
+👉 Disaster recovery (DR) is about preparing for and recovering from a disaster
+👉 Recovery Point Objective(Data loss), Recovery Time Objective (Downtime)
+👉 Strategies- Backup and Restore, Pilot Light, Warm Standby Hot Site/Multi Site Approach
+
+𝐁𝐚𝐜𝐤𝐮𝐩:
+👉EBS Snapshots, RDS automated backups / Snapshots, etc…
+👉Regular pushes to S3 / S3 IA / Glacier, Lifecycle Policy, Cross Region Replication
+👉From On-Premise: Snowball or Storage Gateway
+
+𝐇𝐢𝐠𝐡 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐢𝐥𝐢𝐭𝐲:
+👉Use Route53 to migrate DNS over from Region to Region
+👉RDS Multi-AZ, ElastiCache Multi-AZ, EFS, S3
+👉Site to Site VPN as a recovery from Direct Connect
+
+𝐑𝐞𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧:
+👉RDS Replication (Cross Region), AWS Aurora + Global Databases
+👉Database replication from on-premises to RDS
+👉Storage Gateway
+
+𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧:
+👉CloudFormation / Elastic Beanstalk to re-create a whole new environment
+👉Recover / Reboot EC2 instances with CloudWatch if alarms fail
+👉AWS Lambda functions for customized automations
+
+𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐌𝐢𝐠𝐫𝐚𝐭𝐢𝐨𝐧 𝐒𝐞𝐫𝐯𝐢𝐜𝐞:
+👉 Quickly and securely migrate databases to AWS, resilient, self healing
+👉 Must create an EC2 instance to perform the replication tasks
+
+𝐀𝐖𝐒 𝐒𝐜𝐡𝐞𝐦𝐚 𝐂𝐨𝐧𝐯𝐞𝐫𝐬𝐢𝐨𝐧 𝐓𝐨𝐨𝐥 (𝐒𝐂𝐓):
+👉 To convert Database’s Schema from one engine to another
+
+𝐀𝐖𝐒 𝐁𝐚𝐜𝐤𝐮𝐩:
+👉 Centrally manage and automate backups across all AWS services
+👉 Create backup policies known as Backup Plans, fully managed service
+👉 Backup Vault Lock- Even the root user cannot delete backups
+
+𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐃𝐢𝐬𝐜𝐨𝐯𝐞𝐫𝐲 𝐒𝐞𝐫𝐯𝐢𝐜𝐞:
+👉 Plan migration projects by gathering information about on-premises data centers
+👉 Agentless Discovery, Agent-based Discovery (more reliable)
+👉 Resulting data can be viewed within AWS Migration Hub
+
+𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐌𝐢𝐠𝐫𝐚𝐭𝐢𝐨𝐧 𝐒𝐞𝐫𝐯𝐢𝐜𝐞:
+👉 Lift-and-shift (rehost) solution which simplify migrating applications to AWS
+👉 Converts your physical, virtual, and cloud-based servers to run natively on AWS
+👉 Minimal downtime, reduced costs
+
+
+🎯𝗗𝗮𝘆 𝟖 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud
+🚀 𝐔𝐩𝐬𝐤𝐢𝐥𝐥 > 𝐖𝐨𝐫𝐤 > 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩 > 𝐑𝐞𝐩𝐞𝐚𝐭
+𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+
+𝐑𝐞𝐤𝐨𝐠𝐧𝐢𝐭𝐢𝐨𝐧:
+👉 Find objects, people, text, scenes in images and videos using ML
+👉 Face detection, labeling, celebrity recognition
+👉 Content Moderation-detect content that is inappropriate, unwanted, or offensive (image and videos) to create a safer user experience
+𝐓𝐫𝐚𝐧𝐬𝐜𝐫𝐢𝐛𝐞:
+👉 Automatically convert speech to text
+👉 Remove Personally Identifiable Information (PII) using Redaction
+👉 Automatic Language Identification for multi-lingual audio
+𝐏𝐨𝐥𝐥𝐲:
+👉 Turn text into speech using deep learning
+👉 Customize the pronunciation of words with Pronunciation lexicons
+👉 Speech Synthesis Markup Language (SSML) – enables more customization
+𝐓𝐫𝐚𝐧𝐬𝐥𝐚𝐭𝐞:
+👉 Natural and accurate language translation
+👉 Translate allows you to localize content - such as websites and applications - for international users, and to easily translate large volumes of text efficiently
+𝐋𝐞𝐱 & 𝐂𝐨𝐧𝐧𝐞𝐜𝐭:
+👉 Lex - build conversational bots (chatbots)
+👉 Lex - Automatic Speech Recognition (ASR) to convert speech to text
+👉 Connect -cloud contact center 80% cheaper than traditional contact center solutions
+𝐂𝐨𝐦𝐩𝐫𝐞𝐡𝐞𝐧𝐝:
+👉 Fully managed and serverless service for natural language processing
+👉 Example: Create and groups articles by topics
+𝐒𝐚𝐠𝐞𝐌𝐚𝐤𝐞𝐫:
+👉 Fully managed service for developers / data scientists to build ML models
+𝐅𝐨𝐫𝐞𝐜𝐚𝐬𝐭:
+👉 Fully managed service to deliver highly accurate forecasts
+👉 Example: predict the future sales of your product``
+𝐊𝐞𝐧𝐝𝐫𝐚:
+👉 Fully managed document search service powered by Machine Learning
+👉 Similar like open search in Db
+👉 Natural language search capabilities
+𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐞:
+👉 Fully managed ML-service to build apps with real-time personalized recommendations
+👉 Integrates into existing websites, applications, SMS, email marketing systems
+𝐓𝐞𝐱𝐭𝐫𝐚𝐜𝐭:
+👉 Automatically extracts text, handwriting, and data from any scanned documents using AI and ML
+👉 Read and process any type of document
+
+
+o • Edited •
+
+🎯𝗗𝗮𝘆 𝟗 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud
+🚀 𝐔𝐩𝐬𝐤𝐢𝐥𝐥 > 𝐖𝐨𝐫𝐤 > 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩 > 𝐑𝐞𝐩𝐞𝐚𝐭
+𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+𝐃𝐚𝐭𝐚 & 𝐀𝐧𝐚𝐥𝐲𝐭𝐢𝐜𝐬
+𝐀𝐭𝐡𝐞𝐧𝐚:
+👉 Serverless query service to analyse data stored in Amazon S3
+👉 Performance Improvement-columnar data, Compress data, Partition datasets, Use larger files
+👉 Uses Data Source Connectors that run on AWS Lambda to run Federated Queries (e.g., CloudWatch Logs, DynamoDB, RDS, …)
+𝐑𝐞𝐝𝐬𝐡𝐢𝐟𝐭:
+👉 PostgreSQL based Db with online analytical processing (analytics and data warehousing)
+👉 BI tools such as Amazon Quicksight or Tableau integrate with it
+👉 Query>cluster> Leader node> Compute Nodes
+👉 Snapshots are point-in-time backups of a cluster, stored internally in S3
+👉 3 ways of loading data Kinesis Data Firehose/ S3 using COPY/ EC2 Instance JDBC driver
+𝐎𝐩𝐞𝐧𝐒𝐞𝐚𝐫𝐜𝐡:
+👉 You can search any field, even partially matches
+👉 Does not natively support SQL (can be enabled via a plugin)
+👉 It’s common to use OpenSearch as a complement to another database
+𝐄𝐥𝐚𝐬𝐭𝐢𝐜 𝐌𝐚𝐩𝐑𝐞𝐝𝐮𝐜𝐞:
+👉 Helps creating Hadoop clusters (Big Data) to analyze and process vast amount of data
+👉 Takes care of all the provisioning and configuration of Apache Spark, HBase, Presto, Flink…
+👉 Use cases: data processing, machine learning, web indexing, big data
+𝐐𝐮𝐢𝐜𝐤𝐒𝐢𝐠𝐡𝐭:
+👉 Serverless machine learning-powered business intelligence service to create interactive dashboards
+👉 Use cases: Business analytics, Building visualizations, Perform ad-hoc analysis, Get business insights using data
+𝐆𝐥𝐮𝐞:
+👉 Managed > extract, transform, and load (ETL) service
+👉 Useful to prepare and transform data for analytics
+𝐋𝐚𝐤𝐞 𝐅𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧:
+👉 Data lake = central place to have all your data for analytics purposes
+👉 It automates many complex manual steps (collecting, cleansing, moving, cataloging data, …) and de-duplicate (using ML Transforms)
+👉 We manage security at one place
+𝐊𝐢𝐧𝐞𝐬𝐢𝐬 𝐃𝐚𝐭𝐚 𝐀𝐧𝐚𝐥𝐲𝐭𝐢𝐜𝐬:
+👉 Real-time analytics on Kinesis Data Streams & Firehose using SQL
+👉 Fully managed, no servers to provision, Automatic scaling
+𝐌𝐚𝐧𝐚𝐠𝐞𝐝 𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠 𝐟𝐨𝐫 𝐀𝐩𝐚𝐜𝐡𝐞 𝐊𝐚𝐟𝐤𝐚:
+👉 Alternative to Amazon Kinesis, setting up kafka is very difficult but aws made easy
+👉 Fully managed Apache Kafka on AWS
+
+
+🎯𝗗𝗮𝘆 𝟏𝟎 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud
+🚀 𝐔𝐩𝐬𝐤𝐢𝐥𝐥 > 𝐖𝐨𝐫𝐤 > 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩 > 𝐑𝐞𝐩𝐞𝐚𝐭
+𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+                                                   𝐈𝐀𝐌
+𝐔𝐬𝐞𝐫𝐬 & 𝐆𝐫𝐨𝐮𝐩𝐬:
+👉 Identity and Access Management, Global service
+👉 Root account created by default, shouldn’t be used or shared
+👉 Users are people within your organization, and can be grouped / Groups only contain users, not other groups
+👉 Users don’t have to belong to a group, and user can belong to multiple groups
+𝐏𝐞𝐫𝐦𝐢𝐬𝐬𝐢𝐨𝐧𝐬:
+👉 Users or Groups can be assigned JSON documents called policies (defines the permissions)
+👉 We apply the least privilege principle: don’t give more permissions than a user need
+👉 Consists of Version, Id, Statement, Sid, Effect, Principal, Action, Resource, Condition
+𝐏𝐚𝐬𝐬𝐰𝐨𝐫𝐝 𝐏𝐨𝐥𝐢𝐜𝐲:
+👉 In AWS, you can setup a password policy
+👉 MFA = password you know + security device you own, if a password is stolen or hacked, the account is not compromised
+𝐈𝐀𝐌 𝐑𝐨𝐥𝐞𝐬 𝐟𝐨𝐫 𝐒𝐞𝐫𝐯𝐢𝐜𝐞𝐬:
+👉 Some AWS service will need to perform actions on your behalf - to do so, we will assign permissions to AWS services with IAM Roles
+𝐈𝐀𝐌 𝐒𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐓𝐨𝐨𝐥𝐬:
+👉 Credentials Report (account-level) - a report that lists all your account's users and the status of their various credentials
+👉 Access Advisor (user-level) - Access advisor shows the service permissions granted to a user and when those services were last accessed
+
+
+🎯𝗗𝗮𝘆 𝟏𝟏 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud
+🚀 𝐔𝐩𝐬𝐤𝐢𝐥𝐥 > 𝐖𝐨𝐫𝐤 > 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩 > 𝐑𝐞𝐩𝐞𝐚𝐭
+𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+                                   𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐈𝐝𝐞𝐧𝐭𝐢𝐭𝐲 𝐢𝐧 𝐀𝐖𝐒
+𝐎𝐫𝐠𝐚𝐧𝐢𝐳𝐚𝐭𝐢𝐨𝐧𝐬:
+👉Allows to manage multiple AWS accounts, Global service
+👉Service Control Policies applied to OU or Accounts to restrict Users and Roles
+👉IAM Conditions- aws:SourceIp, aws:RequestedRegion, ec2:ResourceTag, aws:MultiFactorAuthPresent, S3 > bucket/object level permission
+𝐑𝐞𝐬𝐨𝐮𝐫𝐜𝐞 𝐏𝐨𝐥𝐢𝐜𝐢𝐞𝐬 & 𝐚𝐰𝐬:𝐏𝐫𝐢𝐧𝐜𝐢𝐩𝐚𝐥𝐎𝐫𝐠𝐈𝐃:
+👉Aws:PrincipalOrgID can be used in any resource policies to restrict access to accounts that are member of an AWS Organization
+𝐈𝐀𝐌 𝐑𝐨𝐥𝐞𝐬 𝐯𝐬 𝐑𝐞𝐬𝐨𝐮𝐫𝐜𝐞 𝐁𝐚𝐬𝐞𝐝 𝐏𝐨𝐥𝐢𝐜𝐢𝐞𝐬:
+👉Cross account-attaching a resource-based policy to a resource or using a role as a proxy
+👉When we assume a role we give up your original permissions and take the permissions assigned to the role
+👉When using a resource-based policy, the principal doesn’t have to give up his permissions
+𝐈𝐀𝐌 𝐏𝐞𝐫𝐦𝐢𝐬𝐬𝐢𝐨𝐧 𝐁𝐨𝐮𝐧𝐝𝐚𝐫𝐢𝐞𝐬:
+👉Supported for users and roles (not groups)
+👉Policy to set the maximum permissions an IAM entity can get
+👉Used in combinations of AWS Organizations SCP, Delegate responsibilities to non administrators, self-assign policies and manage their own permissions, to restrict one specific user
+𝐈𝐀𝐌 𝐈𝐝𝐞𝐧𝐭𝐢𝐭𝐲 𝐂𝐞𝐧𝐭𝐞𝐫:
+👉One login (single sign-on) for  AWS accounts in AWS Organizations, Business cloud applications, SAML2.0-enabled applications, EC2 Windows Instances
+👉Identity providers- Built-in identity store OR 3rd party
+👉Permission Sets - Multi-Account Permissions, Application Assignments, Attribute-Based Access Control
+𝐃𝐢𝐫𝐞𝐜𝐭𝐨𝐫𝐲 𝐒𝐞𝐫𝐯𝐢𝐜𝐞𝐬:
+👉AWS Managed Microsoft AD > Create your own AD in AWS, manage users locally, supports MFA. Establish “trust” connections with your on- premises AD
+👉AD Connector > Directory Gateway (proxy) to redirect to on- premises AD, supports MFA.Users are managed on the on-premises AD
+👉Simple AD > AD-compatible managed directory on AWS. Cannot be joined with on-premises AD
+𝐂𝐨𝐧𝐭𝐫𝐨𝐥 𝐓𝐨𝐰𝐞𝐫:
+👉Easy way to set up and govern a secure and compliant multi-account AWS environment based on best practices, uses AWS Organizations to create accounts
+👉Preventive Guardrail – using SCP
+👉Detective Guardrail – using AWS Config (e.g., identify untagged resources)
+
+
+🎯𝗗𝗮𝘆 𝟏𝟐 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud
+🚀 𝐔𝐩𝐬𝐤𝐢𝐥𝐥 > 𝐖𝐨𝐫𝐤 > 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩 > 𝐑𝐞𝐩𝐞𝐚𝐭
+𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+                               𝐀𝐖𝐒 𝐒𝐞𝐜𝐮𝐫𝐢𝐭𝐲 & 𝐄𝐧𝐜𝐫𝐲𝐩𝐭𝐢𝐨𝐧 
+𝐊𝐞𝐲 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐒𝐞𝐫𝐯𝐢𝐜𝐞:
+👉 AWS manages encryption keys, integrated with IAM for authorization
+👉 Keys Types- Symmetric/ Asymmetric
+👉 Key Policies- similar to S3 bucket policies
+👉 Multi-Region Keys in different AWS Regions that can be used interchangeably
+𝐒𝐒𝐌 𝐏𝐚𝐫𝐚𝐦𝐞𝐭𝐞𝐫 𝐒𝐭𝐨𝐫𝐞:
+👉 Secure storage for configuration and secrets
+👉 Security through IAM, Parameters Policies for advanced parameters
+𝐒𝐞𝐜𝐫𝐞𝐭𝐬 𝐌𝐚𝐧𝐚𝐠𝐞𝐫:
+👉 For storing secrets, Capability to force rotation of secrets every X days
+👉 Encrypted using KMS, meant for RDS integration
+𝐂𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐞 𝐌𝐚𝐧𝐚𝐠𝐞𝐫:
+👉 Provision, manage, and deploy TLS Certificates
+👉 Automatic certificate renewal, Supports both public and private TLS
+𝐖𝐞𝐛 𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐅𝐢𝐫𝐞𝐰𝐚𝐥𝐥:
+👉 Protects your web applications (layer 7 attacks)
+👉 Deploy on ALB, API Gateway, CloudFront, AppSync GraphQL API, Cognito User Pool
+𝐒𝐡𝐢𝐞𝐥𝐝:
+👉 Shield Standard is free, protect from DDoS attack
+👉 Shield Advanced- 24/7 access to DDoS response team, automatically deploys WAF rules to mitigate layer 7 attacks
+👉 Protect against more sophisticated attack & higher fees
+𝐅𝐢𝐫𝐞𝐰𝐚𝐥𝐥 𝐌𝐚𝐧𝐚𝐠𝐞𝐫:
+👉 Manage rules in all accounts of an AWS Organization
+👉 Security policy: WAF rules, AWS Shield Advanced, Security Groups for EC2, Application Load Balancer and ENI resources in VPC, AWS Network Firewall (VPC Level), Amazon Route 53 Resolver DNS Firewall, Policies are created at the region level
+𝐆𝐮𝐚𝐫𝐝𝐃𝐮𝐭𝐲:
+👉 Threat discovery to protect AWS Account
+👉 Input data- VPC Flow Logs, DNS Logs, Cloud Trail Events Logs, Kubernetes Audit Logs
+𝐈𝐧𝐬𝐩𝐞𝐜𝐭𝐨𝐫:
+👉 Automated Security Assessments
+👉 Only for EC2 instances, Container Images & Lambda functions
+𝐌𝐚𝐜𝐢𝐞:
+👉 Data security and data privacy service
+👉 Identifies sensitive data ex: personally identifiable information
+
+
+🎯𝗗𝗮𝘆 𝟏𝟑 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud
+𝐔𝐩𝐬𝐤𝐢𝐥𝐥 > 𝐖𝐨𝐫𝐤 > 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩 > 𝐑𝐞𝐩𝐞𝐚𝐭
+𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+
+𝐒𝐢𝐦𝐩𝐥𝐞 𝐄𝐦𝐚𝐢𝐥 𝐒𝐞𝐫𝐯𝐢𝐜𝐞:
+👉 Fully managed service to send emails securely, globally and at scale
+👉 Allows inbound/outbound emails, reputation dashboard, performance insights, anti-spam feedback
+👉 Use cases: transactional, marketing and bulk email communications
+
+𝐏𝐢𝐧𝐩𝐨𝐢𝐧𝐭:
+👉 Scalable 2-way (outbound/inbound) marketing communications service
+👉Next version of SES & SNS,
+👉 create message templates, delivery schedules, highly-targeted segments, and full campaigns
+
+𝐒𝐲𝐬𝐭𝐞𝐦𝐬 𝐌𝐚𝐧𝐚𝐠𝐞𝐫:
+👉Session Manager- Allows you to start a secure shell on your EC2 and on-premises servers
+👉Run Command-Execute a document (= script) or just run a command
+👉Patch Manager-Automates the process of patching managed instances
+👉Maintenance Windows-Defines a schedule for when to perform actions
+👉 Automation-Simplifies common maintenance and deployment tasks of EC2 instances and other AWS resources
+
+𝐂𝐨𝐬𝐭 𝐄𝐱𝐩𝐥𝐨𝐫𝐞𝐫:
+👉Visualize, understand, and manage your AWS costs and usage over time
+👉Forecast usage up to 12 months based on previous usage
+
+𝐄𝐥𝐚𝐬𝐭𝐢𝐜 𝐓𝐫𝐚𝐧𝐬𝐜𝐨𝐝𝐞𝐫:
+👉Converts media files stored in S3 into media files in the formats required by consumer playback devices (phones etc)
+👉Easy to use, highly scalable, Cost effective, fully managed & secure
+
+𝐁𝐚𝐭𝐜𝐡:
+👉A “batch” job is a job with a start and an end
+👉Fully managed batch processing at any scale
+
+𝐀𝐩𝐩𝐅𝐥𝐨𝐰:
+👉Fully managed integration service that enables you to securely transfer data between Software-as-a-Service (SaaS) applications and AWS
+👉Salesforce, SAP, Zendesk, Slack, and ServiceNow to AWS
+
+
+🎯𝗗𝗮𝘆 𝟏𝟒 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud
+𝐔𝐩𝐬𝐤𝐢𝐥𝐥 > 𝐖𝐨𝐫𝐤 > 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩 > 𝐑𝐞𝐩𝐞𝐚𝐭
+𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+                                     𝐄𝐥𝐚𝐬𝐭𝐢𝐂𝐚𝐜𝐡𝐞
+𝐌𝐞𝐦𝐨𝐫𝐲𝐃𝐁 𝐟𝐨𝐫 𝐑𝐞𝐝𝐢𝐬:
+👉In-memory database service, which has redis compatible api
+👉Durable in-memory data storage with Multi-AZ transactional log
+👉Scale seamlessly from 10s GBs to 100s TBs of storage
+👉Use cases: web and mobile apps, online gaming, media streaming etc…
+
+𝐋𝐚𝐳𝐲 𝐋𝐨𝐚𝐝𝐢𝐧𝐠:
+👉Only requested data is cached (the cache isn’t filled up with unused data)
+👉 Node failures are not fatal (just increased latency to warm the cache)
+👉 Cache miss penalty that results in 3 round trips, noticeable delay for that request
+👉 Stale data: data can be updated in the database and outdated in the cache
+
+𝐖𝐫𝐢𝐭𝐞 𝐓𝐡𝐫𝐨𝐮𝐠𝐡:
+👉 Data in cache is never stale, reads are quick
+👉 Write penalty vs Read penalty (each write requires 2 calls)
+👉 Missing Data until it is added / updated in the DB. Mitigation is to implement Lazy Loading strategy as well
+👉 Cache churn – a lot of the data will never be read
+
+𝐁𝐞𝐬𝐭 𝐩𝐫𝐚𝐜𝐭𝐢𝐜𝐞 𝐄𝐥𝐚𝐬𝐭𝐢𝐂𝐚𝐜𝐡𝐞:
+👉 Lazy Loading / Cache aside is easy to implement and works for many situations as a foundation, especially on the read side
+👉 Write-through is usually combined with Lazy Loading as targeted for the queries or workloads that benefit from this optimization
+👉 Setting a TTL is usually not a bad idea, except when you’re using Write- through. Set it to a sensible value for your application
+👉 Only cache the data that makes sense (user profiles, blogs, etc…)
+
+
+🎯𝗗𝗮𝘆 𝟏𝟓 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud
+ 𝐔𝐩𝐬𝐤𝐢𝐥𝐥 > 𝐖𝐨𝐫𝐤 > 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩 > 𝐑𝐞𝐩𝐞𝐚𝐭
+𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+𝐕𝐏𝐂 𝐁𝐚𝐬𝐢𝐜𝐬
+
+𝐕𝐏𝐂:
+👉VPC is a  private network to deploy your resources (regional resource)
+
+𝐒𝐮𝐛𝐧𝐞𝐭:
+👉Subnets allow you to partition your network inside your VPC (Availability Zone resource)
+👉A public subnet is a subnet that is accessible from the internet
+👉A private subnet is a subnet that is not accessible from the internet
+👉To define access to the internet and between subnets, we use Route Tables.
+
+𝐈𝐧𝐭𝐞𝐫𝐧𝐞𝐭 𝐆𝐚𝐭𝐞𝐰𝐚𝐲𝐬:
+👉Internet Gateways helps our VPC instances connect with the internet
+👉Public Subnets have a route to the internet gateway
+
+𝐍𝐀𝐓 𝐆𝐚𝐭𝐞𝐰𝐚𝐲𝐬 (𝐀𝐖𝐒-𝐦𝐚𝐧𝐚𝐠𝐞𝐝) & 𝐍𝐀𝐓 𝐈𝐧𝐬𝐭𝐚𝐧𝐜𝐞𝐬:
+
+👉 NAT Gateways (AWS-managed) & NAT Instances (self-managed) allow your instances in your Private Subnets to access the internet while remaining private
+
+𝐍𝐞𝐭𝐰𝐨𝐫𝐤 𝐀𝐂𝐋:
+👉 A firewall which controls traffic from and to subnet
+👉 Can have ALLOW and DENY rules
+👉 Rules only include IP addresses
+👉 Attached at the Subnet level
+
+𝐒𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐆𝐫𝐨𝐮𝐩𝐬:
+👉 Firewall that controls traffic to and from an ENI / an EC2 Instance
+👉 Can have only ALLOW rules
+👉 Rules include IP addresses and other security groups
+
+𝐕𝐏𝐂 𝐏𝐞𝐞𝐫𝐢𝐧𝐠: 
+👉Connect two VPC with non overlapping IP ranges, non transitive
+
+𝐕𝐏𝐂 𝐄𝐧𝐝𝐩𝐨𝐢𝐧𝐭𝐬: 
+👉Provide private access to AWS Services within VPC
+
+𝐒𝐢𝐭𝐞 𝐭𝐨 𝐒𝐢𝐭𝐞 𝐕𝐏𝐍:
+👉VPN over public internet between on-premises DC and AWS
+
+𝐃𝐢𝐫𝐞𝐜𝐭 𝐂𝐨𝐧𝐧𝐞𝐜𝐭:
+👉 direct private connection to a AWS
+
+
+🎯𝗗𝗮𝘆 𝟏𝟔 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud
+ 𝐔𝐩𝐬𝐤𝐢𝐥𝐥 > 𝐖𝐨𝐫𝐤 > 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩 > 𝐑𝐞𝐩𝐞𝐚𝐭
+ 𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+ 
+                                               𝐂𝐥𝐨𝐮𝐝𝐅𝐫𝐨𝐧𝐭
+𝐂𝐥𝐨𝐮𝐝𝐅𝐫𝐨𝐧𝐭:
+👉 Content Delivery Network, Improves read performance, content is cached at the edge
+👉 DDoS protection (because worldwide), integration with Shield, AWS Web Application Firewall
+
+𝐂𝐥𝐨𝐮𝐝𝐅𝐫𝐨𝐧𝐭 – 𝐎𝐫𝐢𝐠𝐢𝐧𝐬 𝐟𝐫𝐨𝐦 𝐒𝟑 𝐛𝐮𝐜𝐤𝐞𝐭 / 𝐂𝐮𝐬𝐭𝐨𝐦 𝐎𝐫𝐢𝐠𝐢𝐧 (𝐇𝐓𝐓𝐏):
+
+👉 𝐒𝟑 𝐛𝐮𝐜𝐤𝐞𝐭
+• For distributing files and caching them at the edge
+• Enhanced security with CloudFront Origin Access Control (OAC)
+• OAC is replacing Origin Access Identity (OAI)
+• CloudFront can be used as an ingress (to upload files to S3)
+👉 𝐂𝐮𝐬𝐭𝐨𝐦 𝐎𝐫𝐢𝐠𝐢𝐧 (𝐇𝐓𝐓𝐏)
+• Application Load Balancer
+• EC2 instance
+• S3 website (must first enable the bucket as a static S3 website)
+• Any HTTP backend you want
+
+𝐂𝐥𝐨𝐮𝐝𝐅𝐫𝐨𝐧𝐭 𝐯𝐬 𝐒𝟑 𝐂𝐫𝐨𝐬𝐬 𝐑𝐞𝐠𝐢𝐨𝐧 𝐑𝐞𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧:
+
+👉 𝐂𝐥𝐨𝐮𝐝𝐅𝐫𝐨𝐧𝐭:
+• Global Edge network
+• Files are cached for a TTL (maybe a day)
+• Great for static content that must be available everywhere
+👉 𝐒𝟑 𝐂𝐫𝐨𝐬𝐬 𝐑𝐞𝐠𝐢𝐨𝐧 𝐑𝐞𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧:
+• Must be setup for each region you want replication to happen
+• Files are updated in near real-time
+• Read only & Great for dynamic content that needs to be available at low-latency in few regions
+
+🎯𝗗𝗮𝘆 𝟏𝟕 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud
+ 𝐔𝐩𝐬𝐤𝐢𝐥𝐥 > 𝐖𝐨𝐫𝐤 > 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩 > 𝐑𝐞𝐩𝐞𝐚𝐭
+ 𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+ 
+𝐂𝐥𝐨𝐮𝐝𝐅𝐫𝐨𝐧𝐭 𝐂𝐚𝐜𝐡𝐢𝐧𝐠:
+👉CloudFront identifies each object in the cache using the Cache Key
+👉The cache lives at each CloudFront Edge Location
+👉You can invalidate part of the cache using the CreateInvalidation API
+𝐂𝐥𝐨𝐮𝐝𝐅𝐫𝐨𝐧𝐭 𝐂𝐚𝐜𝐡𝐞 𝐊𝐞𝐲:
+👉A unique identifier for every object in the cache
+👉consists of hostname + resource portion of the URL
+👉You can add other elements (HTTP headers, cookies, query strings) to the Cache Key using CloudFront Cache Policies
+𝐂𝐥𝐨𝐮𝐝𝐅𝐫𝐨𝐧𝐭 𝐏𝐨𝐥𝐢𝐜𝐢𝐞𝐬 – 𝐂𝐚𝐜𝐡𝐞 𝐏𝐨𝐥𝐢𝐜𝐲:
+👉based on HTTP Headers: None – Whitelist,Cookies: None – Whitelist – Include All-Except – All, Query Strings: None – Whitelist – Include All-Except – All
+👉Create your own policy or use Predefined Managed Policies
+𝐂𝐥𝐨𝐮𝐝𝐅𝐫𝐨𝐧𝐭 𝐏𝐨𝐥𝐢𝐜𝐢𝐞𝐬 – 𝐎𝐫𝐢𝐠𝐢𝐧 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐏𝐨𝐥𝐢𝐜𝐲:
+👉Specify values that you want to include in origin requests without including them in the Cache Key (no duplicated cached content)
+👉Ability to add CloudFront HTTP headers and Custom Headers to an origin request that were not included in the viewer request
+𝐂𝐥𝐨𝐮𝐝𝐅𝐫𝐨𝐧𝐭 – 𝐂𝐚𝐜𝐡𝐞 𝐈𝐧𝐯𝐚𝐥𝐢𝐝𝐚𝐭𝐢𝐨𝐧𝐬:
+👉In case we update the back-end origin, CloudFront doesn’t know about it and will only get the refreshed content after the TTL has expired
+👉We can force an entire or partial cache refresh (thus bypassing the TTL) by performing a CloudFront Invalidation
+
+
+🎯𝗗𝗮𝘆 𝟏𝟖 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud
+ 𝐔𝐩𝐬𝐤𝐢𝐥𝐥 > 𝐖𝐨𝐫𝐤 > 𝐄𝐚𝐭 𝐒𝐥𝐞𝐞𝐩 > 𝐑𝐞𝐩𝐞𝐚𝐭
+ 𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+
+𝐂𝐥𝐨𝐮𝐝𝐅𝐫𝐨𝐧𝐭 𝐆𝐞𝐨 𝐑𝐞𝐬𝐭𝐫𝐢𝐜𝐭𝐢𝐨𝐧: 
+👉 We can restrict who can access your distribution
+• Allowlist: Allow your users to access your content only if they're in one
+of the countries on a list of approved countries.
+• Blocklist: Prevent your users from accessing your content if they're in
+one of the countries on a list of banned countries.
+𝐂𝐥𝐨𝐮𝐝𝐅𝐫𝐨𝐧𝐭 𝐒𝐢𝐠𝐧𝐞𝐝 𝐔𝐑𝐋 / 𝐒𝐢𝐠𝐧𝐞𝐝 𝐂𝐨𝐨𝐤𝐢𝐞𝐬:
+👉You want to distribute paid shared content to premium users over the world
+👉 We can use CloudFront Signed URL / Cookie.
+       We attach a policy with:
+       • Includes URL expiration
+       • Includes IP ranges to access the data from
+       • Trusted signers (which AWS accounts can create signed URLs)
+𝐂𝐥𝐨𝐮𝐝𝐅𝐫𝐨𝐧𝐭 - 𝐏𝐫𝐢𝐜𝐢𝐧𝐠:
+👉 Price Class All: all regions – best performance
+👉 Price Class 200: most regions, but excludes the most expensive regions
+👉 Price Class 100: only the least expensive regions
+𝐂𝐥𝐨𝐮𝐝𝐅𝐫𝐨𝐧𝐭 – 𝐎𝐫𝐢𝐠𝐢𝐧 𝐆𝐫𝐨𝐮𝐩𝐬:
+👉To increase high-availability and do failover
+👉Origin Group: one primary and one secondary origin
+👉If the primary origin fails, the second one is used
+𝐂𝐥𝐨𝐮𝐝𝐅𝐫𝐨𝐧𝐭 – 𝐅𝐢𝐞𝐥𝐝 𝐋𝐞𝐯𝐞𝐥 𝐄𝐧𝐜𝐫𝐲𝐩𝐭𝐢𝐨𝐧:
+👉Protect user sensitive information through application stack
+👉Sensitive information encrypted at the edge close to user
+
+
+Hello #connections 👋 What is Docker?
+🎯𝗗𝗮𝘆 𝟏𝟗 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud challenge
+𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+ 
+𝐃𝐨𝐜𝐤𝐞𝐫:
+👉 Docker is a software development platform to deploy apps
+👉 Apps are packaged in containers that can be run on any OS
+👉 Docker images are stored in Docker Repositories
+👉 Docker runs on docker engine
+𝐀𝐦𝐚𝐳𝐨𝐧 𝐄𝐂𝐒:
+👉 Amazon’s own container platform
+👉 We have Fargate (all Serverless) & EC2 (we have to manage) Launch Type
+𝐀𝐦𝐚𝐳𝐨𝐧 𝐄𝐂𝐒 – 𝐈𝐀𝐌 𝐑𝐨𝐥𝐞𝐬:
+👉 EC2 Instance Profile (EC2 Launch Type only):
+• Used by the ECS agent
+• Makes API calls to ECS service
+• Send container logs to CloudWatch Logs
+• Pull Docker image from ECR
+• Reference sensitive data in Secrets Manager or SSM Parameter Store
+👉 ECS Task Role:
+• Allows each task to have a specific role
+• Use different roles for the different ECS Services you run
+• For both fargate & ec2 launch type
+• Task Role is defined in the task definition
+𝐀𝐦𝐚𝐳𝐨𝐧 𝐄𝐂𝐒 – 𝐋𝐨𝐚𝐝 𝐁𝐚𝐥𝐚𝐧𝐜𝐞𝐫 𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐭𝐢𝐨𝐧𝐬:
+👉 Application Load Balancer supported and works for most use cases
+👉 Network Load Balancer recommended only for high throughput / high performance use cases, or to pair it with AWS Private Link
+👉 Classic Load Balancer supported but not recommended (no advanced features – no Fargate)
+𝐀𝐦𝐚𝐳𝐨𝐧 𝐄𝐂𝐒 – 𝐃𝐚𝐭𝐚 𝐕𝐨𝐥𝐮𝐦𝐞𝐬:
+👉 Mount EFS file systems onto ECS tasks
+👉 Works for both EC2 and Fargate launch types
+👉 Tasks running in any AZ will share the same data in the EFS file system
+👉 Fargate + EFS = Serverless
+👉 Use cases: persistent multi-AZ shared storage for your containers
+👉 Amazon S3 cannot be mounted as a file system
+
+Hello Connections 👋 What is ECS –Task Definitions?
+🎯𝗗𝗮𝘆 𝟐𝟎 𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐝𝐞𝐞𝐩 𝐝𝐢𝐯𝐞 𝐀𝐖𝐒 #100daysofcloud challenge
+𝟏 𝐜𝐨𝐧𝐜𝐞𝐩𝐭 𝐚 𝐝𝐚𝐲 𝐞𝐪𝐮𝐚𝐥𝐬 𝟑𝟔𝟓 𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐬 = 𝟔 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬
+
+𝐀𝐦𝐚𝐳𝐨𝐧 𝐄𝐂𝐒 –𝐓𝐚𝐬𝐤 𝐃𝐞𝐟𝐢𝐧𝐢𝐭𝐢𝐨𝐧𝐬:
+👉 Task definitions are metadata in JSON form to tell ECS how to run a Docker container.
+👉 Can define up to 10 containers in a Task Definition.
+👉 It contains crucial information, such as: Image Name, Port Binding for Container and Host, Memory and CPU required, Environment variables, Networking information, IAM Role, Logging configuration (ex CloudWatch).
+
+𝐀𝐦𝐚𝐳𝐨𝐧 𝐄𝐂𝐒 – 𝐄𝐧𝐯𝐢𝐫𝐨𝐧𝐦𝐞𝐧𝐭 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬:
+👉 Environment Variables for task can be fetched from Hardcoded – e.g., URLs, SSM Parameter Store – sensitive variables (e.g., API keys, shared configs), Secrets Manager – sensitive variables (e.g., DB passwords), Amazon S3 – e.g., bulk files.
+
+𝐀𝐦𝐚𝐳𝐨𝐧 𝐄𝐂𝐒 –𝐓𝐚𝐬𝐤 𝐏𝐥𝐚𝐜𝐞𝐦𝐞𝐧𝐭:
+👉When an ECS task is started with EC2 Launch Type, ECS must determine where to place it, with the constraints of CPU and memory (RAM).
+👉Task Placement Strategies- Binpack tasks are placed on the least available amount of CPU and Memory, Random tasks are placed randomly, Spread tasks are placed evenly based on the specified value.
+👉Task Placement Constraints- DistinctInstance tasks are placed on a different EC2 instance, MemberOf tasks are placed on EC2 instances that satisfy a specified expression.
+
+
+𝐇𝐞𝐥𝐥𝐨 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧𝐬 👋 𝐖𝐡𝐚𝐭 𝐢𝐬 𝐒𝐢𝐦𝐩𝐥𝐞 𝐐𝐮𝐞𝐮𝐞 𝐒𝐞𝐫𝐯𝐢𝐜𝐞 ?
+🎯𝗗𝗮𝘆 𝟐𝟏 𝐀𝐖𝐒 #100daysofcloud
+ 
+𝐀𝐦𝐚𝐳𝐨𝐧 𝐒𝐐𝐒:
+👉 Simple Queue Service  is fully managed service used to decouple applications.
+👉 Producer sends message to >SQS > consumer polls the message.
+👉 It is asynchronous based, limitation of 256KB per message sent.
+👉 Message is persisted in SQS until a consumer deletes it.
+👉 Consumers Process in (running on EC2 instances, servers, or AWS Lambda..etc)
+👉 SQS with auto scaling group can be created using- cloud watch metric & alarm.
+👉 SQS Security- Encryption (https, kms key) / iam policy/ access policy.
+👉 Message Visibility Timeout - message becomes invisible to other consumers.
+👉 SQS First In First Out is ordering of messages in the queue.
+👉 Dead Letter Queue- after the maximum receives threshold is exceeded, the message goes into it.
+👉 Using the SQS Extended Client we can send large messages e.g. 1GB.
+
+
+𝐇𝐞𝐥𝐥𝐨 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧𝐬 👋 𝐖𝐡𝐚𝐭 𝐢𝐬 𝐄𝐥𝐚𝐬𝐭𝐢𝐜 𝐁𝐞𝐚𝐧𝐬𝐭𝐚𝐥𝐤 ?
+🎯𝗗𝗮𝘆 𝟐𝟐 - 𝐀𝐖𝐒 𝟏𝟎𝟎𝐝𝐚𝐲𝐬𝐨𝐟𝐜𝐥𝐨𝐮𝐝 𝐜𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞
+
+𝐄𝐥𝐚𝐬𝐭𝐢𝐜 𝐁𝐞𝐚𝐧𝐬𝐭𝐚𝐥𝐤:
+👉 Helping developer for deploying an application on AWS.
+👉 It relies on Cloud Formation to create all the resource.
+👉 It is free but you pay for the underlying instances.
+👉 Deployment- All at once, Rolling, Rolling with additional batches, Blue Green, Traffic Splitting.
+👉 CLI- eb create, eb status, eb health, eb events, eb logs, eb open, eb deploy, eb config, eb terminate.
+👉 Lifecycle Policy- to phase out old application versions.
+👉 Extensions- to add resources such as RDS, ElastiCache, DynamoDB, etc…
+👉 Cloning- Clone an environment with the exact same configuration.
+👉 Migration- for migration we cant use cloning.
