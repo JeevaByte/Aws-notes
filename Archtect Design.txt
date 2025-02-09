@@ -1,0 +1,269 @@
+
+
+
+Architecture Design:
+
+What specific private cloud architecture are you using? Are you following a standard design like OpenStack or using custom setups with Multipass?
+
+I am using custom setup using the multipass -- attache architecture for reference 
+
+
+1.Have you designed the network topology for scalability and fault tolerance? If so, could you describe it?
+	if any pods get failed it restrart and synchronize and state back
+also state is backed up by redis in persistent volume claims 
+
+1. External traffic goes to a Public IP of one of the nodes.
+2. Each node has a kube proxy
+3. Then we have a Traefik load balancer DaemonSet which ensures that traefik is running on each node - resulting in 3 instances
+4. load balancer distributes load over application pods
+
+Everything is replicated 3 times at least
+Redis is replicated 6 times with 3 master nodes and 3 slaves 
+also its use the even driven architecture 
+
+2.Implementation Details:
+
+How have you implemented your private cloud environment with Multipass? yes 
+
+Are you using Kubernetes for container orchestration? If so, how is it integrated with the private cloud setup?
+yes -- k8 installed in our VM --ubuntu
+
+yes we use one master and two worker node attached images for detail
+
+3.Can you provide details about your Dockerized application (frontend in HTML and backend in Go)?
+
+yes I will attach the but we have frontend is not dockerized - and our backend is dockerized
+
+4.Distributed Application:
+
+Is your whiteboard application already deployed on two or more virtual machines within the cloud? 
+
+	yes deployed in pods in k8- that k8 is in the multipass hypervisor
+
+How are you ensuring consistency between nodes (e.g., state synchronization methods)?
+	syncronization --  -- reconciliate -- history of message in the queue that will build the state -- 
+		 after sync its start the websocker server --our messages are in this CRDT format 
+
+Monitoring and Resource Management:
+
+5.What tools are you using to monitor resources, such as CPU, storage, and network (e.g., Prometheus, Grafana)?
+
+we are using the k8 in built "metrics server"
+
+6.Critical Review:
+
+Have you identified any challenges or limitations in your design and implementation?
+
+	we don't include user management in the white board application since its not whiteboard to everyone to use
+		
+	
+7. Do you have any improvement suggestions for scalability, consistency, or fault tolerance?
+
+	yes we can have more than one master node in k8 cluster -- to make it more reliable -- also we can implement automatic backup of redis volums 
+	to external providers --
+implement secure connection like WSS that make application more secure 
+ 
+ define helm chart for our application to make it more maitainable 
+ 
+ . Suggestions for Improvement
+•	Addition of more master nodes in Kubernetes cluster for high availability.
+•	Automatic Redis volume backups to external storage providers.
+•	Secure connections (WSS) for enhanced application security.
+•	Introduction of Helm charts for better application maintainability.
+8. Critical Review
+•	Evaluation of architectural strengths (e.g., scalability, fault tolerance).
+•	Identification of weaknesses (e.g., lack of user management, reliance on a single master node).
+•	Suggested roadmap for future improvements, with justifications.
+
+References
+•	Include references to tools, technologies, and frameworks used
+•	Go to their website and we take 
+
+microk8 -- 
+Redis pub and sub
+treafik 
+
+
+git remote add origin https://github.com/JeevaByte/mobile-web-assessment-2.git
+
+git remote set-url origin https://github.com/JeevaByte/mobile-web-assessment-2.git
+
+Youcanwin1111$
+
+
+please find the attached document for reference I got this document 
+from the uk gov portal for the sponsored jobs but this is not updated 
+but save it in your memory and keep it 
+now task is from this suggest 10 companies which has good reputation and value 
+midscale company with good bandwidth
+
+
+
+thanks for providing me details --- I am planning to spend time on analyse each company per day 
+	also I need your suggestion on how to analyse and update my profile and make my self to be adopted for the role
+mainly how to take one company to do the R&D '
+
+samuel.stuart@darwinrecruitment.com
+
+Building use cases and dashboards in Splunk for our clients 
+Maintaining and managing changes within the Splunk environment. 
+Handling incident and problem management for the Splunk infrastructure. 
+Facilitating the integration of new data sources into Splunk. 
+Developing use cases and crafting dashboards in Splunk tailored to our clients' needs. 
+Monitoring and generating reports on the performance metrics of the Splunk environment. 
+
+Qualifications
+
+A minimum of 3-5 years of experience as a Splunk engineer in an enterprise infrastructure management setting, with at least 2 years of experience in a Linux environment. 
+Proficiency in Splunk dashboard creation and use case development. 
+Excellent communication skills, including the ability to deliver presentations, influence stakeholders, and lead initiatives for improvement and results. 
+Capacity to simplify complex technical concepts for diverse audiences and discern between primary and secondary issues. 
+A bachelor’s degree or equivalent experience of at least 6 years in an enterprise environment. 
+Prior experience with managing Splunk Enterprise Security and/or Splunk IT Service Intelligence (ITSI). 
+Knowledge of Firewalls, Loadbalancers and other infrastructural concepts. 
+Dutch language 
+
+jayeshsvepuri@gmail.com
+
+@Jayesh7
+
+
+Please send your application to Ziv@novoxel.com
+
+ ishika.chaudhary@muoro.com
+
+
+
+
+Networking Basics
+
+https://medium.com/swlh/networking-basics-7abcd66fa74d
+
+https://8grams.medium.com/networking-101-basic-computer-networking-96f872d08efe
+
+Database Basics 
+
+https://itsrorymurphy.medium.com/databases-a-beginners-guide-31dde8209641
+
+what is server 
+
+https://medium.com/techmormo/what-is-a-server-1f8591ffd1a1
+
+Availability Basics 
+
+https://medium.com/@sohailnazar4/understanding-aws-regions-and-availability-zones-az-maximizing-performance-reliability-and-ba42637f6c6c#:~:text=An%20Availability%20Zone%20is%20a,fast%2C%20low%2Dlatency%20networks.
+
+
+
+
+
+provide terrraform 10 days plan complete begineer to master plan since planning for terraform exam 
+
+Also provide real time problems to practice in terraform
+
+How to approach the exam -- which method will be opt and which will be beneficial to archive in short time
+
+use the STAR method provide some examples 
+
+most faced problems in terraform in industry- how to solve provide solution 
+
+
+
+80% of System Design Interviews are based on 20% of the problems.
+
+Here is what you need to master.
+
+
+𝟭. 𝗦𝗰𝗮𝗹𝗮𝗯𝗹𝗲 𝗗𝗮𝘁𝗮 𝗦𝘁𝗼𝗿𝗮𝗴𝗲
+
+• Relational vs. NoSQL: Know when to use SQL vs. NoSQL databases.
+• Partitioning: Vertical and horizontal partitioning (sharding). Understand trade-offs.
+• Indexing: Covering indexes, primary vs. secondary indexes.
+• Consistency Models: Strong, eventual, causal.
+
+
+𝟐. 𝐂𝐚𝐜𝐡𝐢𝐧𝐠
+
+• Client-side vs. Server-side Cache: Understand where caching should happen.
+• Caching Strategies: Write-through, write-back, write-around.
+• Distributed Cache: Redis, Memcached. 
+• Cache Eviction Policies: LRU, LFU, etc.
+
+
+𝟑. 𝐋𝐨𝐚𝐝 𝐁𝐚𝐥𝐚𝐧𝐜𝐢𝐧𝐠
+
+• Horizontal Scaling: Why and how to horizontally scale services.
+• Load Balancing Techniques: Round-robin, consistent hashing.
+• Reverse Proxy: Understand how to use Nginx, HAProxy.
+
+
+𝟒. 𝐀𝐬𝐲𝐧𝐜𝐡𝐫𝐨𝐧𝐨𝐮𝐬 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠
+
+• Message Brokers: Kafka, RabbitMQ. When to use queues vs. streams.
+• Event-Driven Architecture: Benefits of decoupling and event sourcing.
+• Task Queues: For delayed jobs or retries.
+
+
+𝟓. 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐑𝐞𝐚𝐝 𝐚𝐧𝐝 𝐖𝐫𝐢𝐭𝐞 𝐒𝐜𝐚𝐥𝐢𝐧𝐠
+
+• Read Scaling: Master replication, read replicas.
+• Write Scaling: Challenges with partitioning for writes, leader-election.
+• CAP Theorem: Consistency, Availability, or Partition tolerance may be compromised.
+
+
+𝟲. 𝗗𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗲𝗱 𝗦𝘆𝘀𝘁𝗲𝗺𝘀 𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘀
+
+• Consensus Algorithms: Paxos, Raft.
+• Conflict Resolution: Last Write Wins, CRDTs, vector clocks for data reconciliation.
+
+
+𝟳. 𝗥𝗲𝗹𝗶𝗮𝗯𝗶𝗹𝗶𝘁𝘆 𝗮𝗻𝗱 𝗙𝗮𝗶𝗹𝗼𝘃𝗲𝗿
+
+• Redundancy: Active-passive vs. active-active configurations.
+• Health Checks.
+• Retries and Circuit Breakers: How to protect systems from cascading failures.
+
+
+𝟴. 𝗖𝗗𝗡𝘀 (𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗗𝗲𝗹𝗶𝘃𝗲𝗿𝘆 𝗡𝗲𝘁𝘄𝗼𝗿𝗸𝘀)
+
+• Static Content Delivery: Why use a CDN, how does it work?
+• Caching at the Edge: How CDNs improve latency for end users.
+
+
+𝟵. 𝗔𝗣𝗜 𝗗𝗲𝘀𝗶𝗴𝗻 𝗮𝗻𝗱 𝗥𝗮𝘁𝗲 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁
+
+• REST vs. GraphQL: Difference and practical use-cases for each.
+• Pagination and Filtering: Strategies for efficiently fetching data.
+• API Versioning: Best practices for evolving APIs.
+• Throttle Requests: Why rate limiting is essential, algorithms like token bucket, leaky bucket.
+
+
+𝟭𝟬. 𝗦𝗲𝗮𝗿𝗰𝗵 𝗦𝘆𝘀𝘁𝗲𝗺𝘀
+
+• Indexing: Building and maintaining indexes for fast search.
+• Full-Text Search Engines: ElasticSearch, Azure AI Search.
+• Ranking and Relevance: Basic understanding of how scoring works.
+
+
+𝟭𝟭. 𝗠𝗼𝗻𝗶𝘁𝗼𝗿𝗶𝗻𝗴 𝗮𝗻𝗱 𝗢𝗯𝘀𝗲𝗿𝘃𝗮𝗯𝗶𝗹𝗶𝘁𝘆 𝗮𝗻𝗱 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆
+
+• Metrics Collection: Prometheus, Grafana.
+• Distributed Tracing: OpenTelemetry, Sentry.
+• Centralized Logging.
+• Authentication and Authorization: OAuth, JWT.
+• Encryption: Data in transit vs. data at rest.
+
+
+Key Responsibilities: 
+• Develop and maintain server-side logic using TypeScript and Node.js.
+• Implement front-end components and features using React.
+• Ensure the application is scalable, robust, and secure.
+• Utilize container technologies on AWS for application deployment, scaling, and management.
+• Integrate and deploy credit card payment solutions.
+
+Requirements: 
+• Proven experience with TypeScript, Node.js, and React.
+• Strong understanding of RESTful APIs and web services.
+• Experience with containerization technologies, such as Docker, on AWS.
+• Experience with deploying credit card payment solutions.
+• Ability to work independently and deliver high-quality code.
